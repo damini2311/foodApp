@@ -8,7 +8,7 @@ const Cart = () => {
 
   const dispatch = useDispatch();
 
-  handleClearCart = () => {
+  const handleClearCart = () => {
     dispatch(clearCart());
   };
 
