@@ -19,7 +19,7 @@ const RestaurantCategory = ({ data }) => {
           <span className="font-bold text-lg">
             {data.title} ({data.itemCards.length})
           </span>
-          <span>ok</span>
+          <span>^</span>
         </div>
         {showItems && <ItemList items={data.itemCards} />}
       </div>
